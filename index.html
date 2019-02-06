@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	
+	<title>Minimum Bootstrap HTML Skeleton</title>
+	<!--  -->
+	<style>
+
+	</style>
+
+</head>
+
+<body>
+<!--nav bar start here-->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark mb-5">
+    <div class="container">
+       <img src="images/Screenshot%20(13).png" alt="" class="logo img-fluid mr-3">
+        <a href="#" class="navbar-brand">Shopping</a>
+        <button class="navbar-toggler" data-toggle ="collapse" data-target = "#collase">
+            <span class="navbar-toggler-icon">
+            </span>
+        </button>
+        <div class="collapse navbar-collapse ml-5" id="collase">
+            <ul class="navbar-nav ">
+                <li class="nav-item ">
+                <a href="#Men" class="nav-link active">Men</a>
+                </li> <li class="nav-item ">
+                <a href="#" class="nav-link active">Women</a>
+                </li> <li class="nav-item ">
+                <a href="#" class="nav-link active">Kids</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link active dropdown-toggle " data-toggle = "dropdown">
+                        User<i class="far fa-user"></i>
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Login</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="#" class="dropdown-item">Sign-Up</a>
+                    </div>
+                </li>
+                
+            </ul>
+            <form action="" class="form-inline ml-auto hid">
+               
+                <input type="text" class="form-control d-block" placeholder = "Search"> 
+            </form>
+            
+            
+        </div>
+    </div>
+</nav>
+<!--navbar end here-->
+<!--carousel section start here-->
+<div class="carousel slide mb-4" id="idname">
+    <ol class ="carousel-indicators">
+        <li class="active" data-target = "#idname" adata-slide-to ="0"></li>
+         <li  data-target = "#idname" adata-slide-to ="1"></li>
+          <li  data-target = "#idname" adata-slide-to ="2"></li> 
+          <li  data-target = "#idname" adata-slide-to ="3"></li>
+    </ol>
+    <div class="carousel-inner">
+       <div class="carousel-item active">
+            <img src="images/Capture1.PNG" alt="" class="img-fluid d-block showoff">
+            
+        </div>
+        <div class="carousel-item">
+            <img src="images/Capture9.PNG" alt="" class="img-fluid d-block showoff">
+            
+        </div>
+           <div class="carousel-item ">
+            <img src="images/Capture8.PNG" alt="" class="img-fluid d-block showoff">
+            
+        </div>
+        <div class="carousel-item ">
+            <img src="images/Capture2.PNG" alt="" class="img-fluid d-block showoff">
+            
+        </div>
+        <div class="carousel-item ">
+            <img src="images/Capture10.PNG" alt="" class="img-fluid d-block showoff">
+            
+        </div>
+    </div>
+      <a href="#idname" class="carousel-control-prev" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+      </a>
+         <a href="#idname" class="carousel-control-next" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+      </a>
+</div>
+<!--carousel section end here-->
+<!--hot deal section start here-->
+<section class="container-fluid mb-4">
+   <div class="text-center display-3">Hot Deals</div>
+<div class="d-flex justify-content-around ">
+    <div>  <img src="images/Capture24.PNG" alt="image24" class="img-fluid d-block deals animated zoomIn"></div>
+    <div>  <img src="images/Capture25.PNG" alt="image24" class="img-fluid d-block deals"></div>
+    <div>  <img src="images/Capture26.PNG" alt="image24" class="img-fluid d-block deals"></div>
+    <div>  <img src="images/Capture27.PNG" alt="image24" class="img-fluid d-block deals"></div>
+</div>
+</section>
+<!--hot deal section end here-->
+<!--discount section carousel start here-->
+<div id="discount" class="carousel slide mb-4" data-ride ="carousel">
+    <ol class="carousel-indicators">
+        <li class="active" data-target="#discount" data-slide-to ="0">
+        </li> 
+        <li data-target="#discount" data-slide-to ="1">
+        </li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/Capture28.PNG" alt="discount airtel" class="img-fluid d-block disc">
+        </div>
+           <div class="carousel-item">
+            <img src="images/Capture29.PNG" alt="discount mobiquick" class="img-fluid d-block disc">
+        </div><div class="carousel-item">
+            <img src="images/Capture49.PNG" alt="discount mobiquick" class="img-fluid d-block disc">
+        </div>
+    </div>
+    <a href="#discount" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </a>
+       <a href="#discount" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a>
+</div>
+<!--discount section carousel end here-->
+<!--brand in focus section start here-->
+<section class="container-fluid brand mb-3">
+   <div class="text-center display-4 mb-1">BRAND IN FOCUS</div>
+    <div class="d-flex justify-content-around mb-3 flex-wrap">
+        <div><img src="images/Capture11.PNG" alt="" class="focus d-block img-fluid"></div>
+        <div><img src="images/Capture13.PNG" alt="" class="focus d-block img-fluid"></div>
+        <div><img src="images/Capture12.PNG" alt="" class="focus d-block img-fluid"></div>
+        <div><img src="images/Capture14.PNG" alt="" class="focus d-block img-fluid"></div>
+    </div>
+     <div class="d-flex justify-content-around mb-3 flex-wrap">
+        <div><img src="images/Capture18.PNG" alt="" class="focus d-block img-fluid"></div>
+        <div><img src="images/Capture17.PNG" alt="" class="focus d-block img-fluid"></div>
+        <div><img src="images/Capture16.PNG" alt="" class="focus d-block img-fluid"></div>
+        <div><img src="images/Capture19.PNG" alt="" class="focus d-block img-fluid"></div>
+    </div><div class="d-flex justify-content-around mb-3 flex-wrap">
+        <div><img src="images/Capture30.PNG" alt="" class="focus d-block img-fluid"></div>
+        <div><img src="images/Capture31.PNG" alt="" class="focus d-block img-fluid"></div>
+        <div><img src="images/Capture33.PNG" alt="" class="focus d-block img-fluid"></div>
+        <div><img src="images/Capture34.PNG" alt="" class="focus d-block img-fluid"></div>
+    </div>
+</section>
+<!--brand in focus section end here-->
+<!--trending now section start here-->
+<section class=" container-fluid  mb-3">
+    <div class="text-center display-4">TRENDING NOW</div>
+    <div class="d-flex justify-content-around flex-wrap mb-4">
+        <div><img src="images/Capture35.PNG" alt="" class="discover"></div>
+        <div><img src="images/Capture36.PNG" alt="" class="discover"></div>
+        <div><img src="images/Capture37.PNG" alt="" class="discover"></div>
+        <div><img src="images/Capture38.PNG" alt="" class="discover"></div>
+    </div>
+       <div class="d-flex justify-content-around flex-wrap mt-2">
+        <div><img src="images/Capture39.PNG" alt="" class="discover"></div>
+        <div><img src="images/Capture40.PNG" alt="" class="discover"></div>
+        <div><img src="images/Capture43.PNG" alt="" class="discover"></div>
+        <div><img src="images/Capture41.PNG" alt="" class="discover"></div>
+    </div>
+</section>
+<!-- trending now section end here-->
+<!--footer section start here-->
+<section class="my-3 pb-2 footer bg-dark">
+<!--  useful link section start here-->
+   <div class="row container">
+       <div class="col-sm-4">
+           <h3 class="text-muted mb-2">USEFUL LINKS</h3>
+           <ul class="list-group">
+               <button class ="btn" data-toggle="modal" data-target="#contactmodal"><a href="#" class="list-group-item" >Contact Us</a></button>
+               <button class ="btn"><a href="#" class="list-group-item">Shipping</a></button>
+               <button class ="btn"><a href="#" class="list-group-item">Returns</a></button>
+               <button class ="btn"><a href="#" class="list-group-item">T & c</a></button>
+           </ul>
+           
+       </div>
+       <div class="col-md-6 offset-md-2">
+           <h3 class="text-muted my-2 text-center">KEEP IN TOUCH</h3>
+           <div class="d-flex justify-content-between">
+               <div><a href="#"><i class="fab fa-facebook-f display-1"></i></a>
+         </div>
+               <div><a href="#"><i class="fab fa-twitter display-1"></i></a></div>
+               <div><a href="#"><i class="fab fa-instagram display-1"></i></a>
+               </div>
+               <div><a href="#"><i class="fab fa-youtube display-1"></i></a></div>
+           </div>
+       </div>
+   </div>
+<!--   useful link section end here-->
+<!--  shop for brand start here-->
+   <div class="row container-fluid">
+       <div class="col-sm-12">
+         
+           <p class="display-3 text-center">SHOP FOR YOUR FAVOURITE BRAND</p>
+           <p>
+           We have all planned our trips to the clothing store in advance, vividly dreaming about what we would buy once there. Some of us even have sales assistants for friends and have often asked them for a favour or two during peak shopping season (read: festivals and sales). But what we can all admit to is that we have always wished it was easier than to go down to the store in dense traffic, navigating through throngs of fashionistas, all vying for the same trendy clothing items, waiting in line to try on our top picks in the trial rooms, etc.Whether it is clothing ,footwear,accesories and cosmetics We showcase the most elite brand in world.</p>
+       </div>
+   </div>
+<!--   shop for brand end here-->
+<!--   modal start here-->
+<div class="modal" id="contactmodal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">
+                    Enter your Detail
+                </h5>
+                <button class="close" data-dismiss ="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" placeholder="Enter your Name"> 
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" placeholder="Enter your Email">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-success w-100" data-dismiss="modal">
+                    Submit
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--modal end here-->
+</section>
+<!--footer section end here-->
+
+
+
+	
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script>
+
+</body>
+
+</html>

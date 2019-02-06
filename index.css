@@ -1,0 +1,62 @@
+
+.logo{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.showoff{
+  width:1349px;
+    height:450px;
+}
+.disc{
+    width: 1349px;
+    height:100px;
+}
+.focus{
+    width:263px;
+    height:335px;
+}
+.focus:hover{
+    transform: scale(0.9,0.9);
+}
+.discover{
+    width:265px;
+    height:345px;
+}
+.discover:hover{
+    transform: scale(0.9,0.9);
+}
+.footer{
+  
+}
+.deals:hover{
+    transform: scale(0.9,0.9);
+}
+
+
+@media(max-width:576px){
+    .hid{
+        display:none;
+    }
+}
+
+@media(max-width:768px){
+    .showoff{
+  width:600px;
+    height:450px;
+}
+
+}
+
+@media(max-width:576px){
+    .deals{
+    width:120pxpx;
+    height:120px;
+}
+}
+@media(min-width:576px){
+    .deals{
+    width:270px;
+    height:204px;
+}
+}
